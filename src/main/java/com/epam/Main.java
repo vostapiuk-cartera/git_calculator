@@ -13,12 +13,18 @@ public class Main {
 
         System.out.println("The multiplication result of" + num1 + " and " + num2 + " is: "
                 + multiply(num1, num2));
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + add(num1, num2));
 
         scanner.close();
     }
 
     public static int multiply(int num1, int num2) {
         return num1 * num2;
+    }
+
+
+    public static int add(int num1, int num2) {
+        return num1 + num2;
     }
 
 }
